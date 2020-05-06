@@ -1,0 +1,18 @@
+.ToDoList {
+    margin: 4rem auto;
+    padding: 2rem 3rem 3rem;
+    max-width: 700px;
+    min-width: 500px;
+    background: #cfb1e0;
+    color: #fff;
+    box-shadow: -10px -10px 0px 0px rgba(100, 100, 100, .1);
+}
+ 
+
+.ToDoList h1 {
+    font-weight: normal;
+    font-size: 2.6rem;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    margin-bottom: 1.2rem;
+}

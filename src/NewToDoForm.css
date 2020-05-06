@@ -1,0 +1,36 @@
+.ToDo-Form{
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ToDo-Form input {
+    flex-grow: 1;
+    border: none;
+    background: #f7f1f1;
+    padding:  1.5em;
+    font-size: initial;
+}
+
+.ToDo-Form button {
+    padding: 0 1.3rem;
+    border: none;
+    background: #d0a2eb;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, .3);
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background .2s ease-out;
+}
+
+.ToDo-Form button:hover {
+    background: #bd7de3;
+}
+
+.ToDo-Form input,
+.ToDo-Form button {
+    font-family: 'Ubuntu', sans-serif;
+    height: 3rem;
+}
